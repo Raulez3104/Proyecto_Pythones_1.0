@@ -17,11 +17,13 @@ const PanelScreen: React.FC = () => {
         <View style={[styles.box, { backgroundColor: '#1b2d3dff' }]}>
           <MaterialCommunityIcons name="account-group" size={40} color="white" />
           <Text style={styles.text}>Total de Técnicos</Text>
+          <Text style={styles.text}>2</Text>
         </View>
 
         <View style={[styles.box, { backgroundColor: '#1b2d3dff' }]}>
           <MaterialCommunityIcons name="cash" size={40} color="white" />
           <Text style={styles.text}>Ventas Mensuales</Text>
+          <Text style={styles.text}>54</Text>
         </View>
       </View>
 
@@ -75,6 +77,7 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     padding: 10,
+    backgroundColor: '#7495ac',
   },
 
   grupo1: {
@@ -85,7 +88,7 @@ const styles = StyleSheet.create({
 
   box: {
     width: '40%',
-    height: 95,
+    height: 115,
     borderRadius: 10,
     justifyContent: 'center',
     alignItems: 'center',
@@ -104,6 +107,7 @@ const styles = StyleSheet.create({
     paddingVertical: 15,
     backgroundColor: '#e0e0e0',
     marginTop: 40,
+    borderRadius: 8,
   },
 
   navButton: {
